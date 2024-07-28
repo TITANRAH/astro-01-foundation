@@ -1,0 +1,14 @@
+npm run build 
+luego
+npm run preview para ver el build
+para desarrollo
+npm run dev
+
+layouts
+https://docs.astro.build/en/basics/layouts/
+
+estilos
+https://docs.astro.build/en/guides/styling/
+
+404
+https://dev.to/stackfindover/35-html-404-page-templates-5bge

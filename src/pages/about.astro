@@ -1,0 +1,19 @@
+---
+import CustomTitle from "../components/CustomTitle.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
+const title = "About Page";
+---
+
+<MainLayout title={title}>
+
+  <CustomTitle title="This is a custom title"/>
+</MainLayout>
+
+<!-- estilo solo en el componente -->
+<!-- si le pongo la propiedad is:global a la etiqueta style si pintaria toos klos h1 del sitio -->
+<style is:global>
+  h1 {
+    color: red
+  }
+</style>
